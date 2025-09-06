@@ -47,8 +47,7 @@ echo.
 echo Launching Pekora for game ID %gameid%...
 timeout /t 1 /nobreak >nul
 
-"ProjectXPlayerBeta.exe" --authenticationUrl "https://www.pekora.org/Login/Negotiate.ashx" --authenticationTicket "%authticket%" --joinScriptUrl "https://www.pekora.org/Game/PlaceLauncher.ashx?request=RequestGame^&placeId=%gameid%^&isPartyLeader=false^&gender=^&isTeleport=true"
-
+"ProjectXPlayerBeta.exe" --authenticationUrl "https://www.pekora.org/Login/Negotiate.ashx" --authenticationTicket "%authticket%" --joinScriptUrl "https://www.pekora.org/Game/PlaceLauncher.ashx?request=RequestGame&placeId=%gameid%&isPartyLeader=false&gender=&isTeleport=true"
 echo Game is running! Bailing out.
 timeout /t 3 /nobreak >nul
 exit
@@ -64,4 +63,5 @@ echo DM me on Discord if you need help: kroneristaken
 echo .
 echo Press any key to return to main menu...
 pause >nul
+
 goto menu
