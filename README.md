@@ -4,6 +4,8 @@ Open-source Batch Pekora.org launcher.
 ## Warning!
 This launcher is NOT official Pekora launcher!
 
+This project is not going to be continued due to situation with pekora.org/pekora.rip. Do NOT play these revivals!
+
 ---
 
 # How to use
