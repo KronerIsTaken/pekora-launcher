@@ -52,7 +52,7 @@ set /p gameid="Game ID (only number): "
 echo.
 echo Launching Pekora for game ID %gameid%...timeout /t 1 /nobreak >nul
 
-"ProjectXPlayerBeta.exe" --authenticationUrl "https://www.pekora.org/Login/Negotiate.ashx" --authenticationTicket "%authticket%" --joinScriptUrl "https://www.pekora.org/Game/PlaceLauncher.ashx?request=RequestGame&placeId=%gameid%&isPartyLeader=false&gender=&isTeleport=true"
+"RevivalNameLauncher.exe" --authenticationUrl "https://www.revival.domain/Login/Negotiate.ashx" --authenticationTicket "%authticket%" --joinScriptUrl "https://www.revival.domain/Game/PlaceLauncher.ashx?request=RequestGame&placeId=%gameid%&isPartyLeader=false&gender=&isTeleport=true"
 
 echo Game is running! Bailing out.
 timeout /t 3 /nobreak >nul
@@ -169,4 +169,5 @@ echo ------------------------
 echo You'll be redirected to main menu
 DEL "settings.kpl"
 timeout /t 5 /nobreak >nul
+
 goto menu
