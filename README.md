@@ -10,12 +10,14 @@ This project is not going to be continued due to situation with pekora.org/pekor
 
 # How to use
 
-Before using KPL, you must have the **2021M game client** from the official Pekora website as ZIP file (https://setup.pekora.org/version-1-ProjectXApp2021M.zip).
+DO NOT FOLLOW THESE! GONNA DELETE SOON!
 
-1. Download latest BAT file from releases.
+~~Before using KPL, you must have the **2021M game client** from the official Pekora website as ZIP file (https://setup.pekora.org/version-1-ProjectXApp2021M.zip).~~
+
+~~1. Download latest BAT file from releases.
 2. Get file "kpl.bat" and move it into 2021M folder that you can download from official website (https://setup.pekora.org/version-1-ProjectXApp2021M.zip).
 3. Using https://www.pekora.org/game/get-join-script?placeId=GAMEID, get autheticationTicket. Put it in Batch and type in game's ID.
-4. Hit enter and enjoy!
+4. Hit enter and enjoy!~~
 
 KPL: SF (Straight Forward will be out soon)
 
